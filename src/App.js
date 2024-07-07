@@ -10,12 +10,12 @@ function App() {
   return (
     <Router>
     <Switch>
-      <Route path='/my_portfolioweb' element={<Home/>}></Route>
-      <Route path='/home' element={<Home/>}></Route>
-      <Route path='/about' element={<AboutMePage/>}></Route>
-      <Route path='/portfolio' element={<PortfolioPage/>}></Route>
-      <Route path='/contact' element={<ContactPage/>}></Route>
-      <Route path='/services' element={<ServicesPage/>}></Route>
+      <Route path='/my_portfolioweb' component={<Home/>}></Route>
+      <Route path='/home' component={<Home/>}></Route>
+      <Route path='/about' component={<AboutMePage/>}></Route>
+      <Route path='/portfolio' component={<PortfolioPage/>}></Route>
+      <Route path='/contact' component={<ContactPage/>}></Route>
+      <Route path='/services' component={<ServicesPage/>}></Route>
     </Switch>
     </Router>
   );
