@@ -1,6 +1,7 @@
+import React from 'react';
 import AboutMePage from './component/AboutMePage';
 import Home from './component/Home'
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import PortfolioPage from './component/PortfolioPage';
 import ContactPage from './component/contactpage';
 import ServicesPage from './component/ServicesPage';
