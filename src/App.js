@@ -8,16 +8,16 @@ import ServicesPage from './component/ServicesPage';
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
+    <Router>
+    <Switch>
       <Route path='/my_portfolioweb' element={<Home/>}></Route>
       <Route path='/home' element={<Home/>}></Route>
       <Route path='/about' element={<AboutMePage/>}></Route>
       <Route path='/portfolio' element={<PortfolioPage/>}></Route>
       <Route path='/contact' element={<ContactPage/>}></Route>
       <Route path='/services' element={<ServicesPage/>}></Route>
-    </Routes>
-    </BrowserRouter>
+    </Switch>
+    </Router>
   );
 }
 
