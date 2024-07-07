@@ -9,12 +9,12 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Home/>}></Route>
-      <Route path='/home' element={<Home/>}></Route>
-      <Route path='/about' element={<AboutMePage/>}></Route>
-      <Route path='/portfolio' element={<PortfolioPage/>}></Route>
-      <Route path='/contact' element={<ContactPage/>}></Route>
-      <Route path='/services' element={<ServicesPage/>}></Route>
+      <Route path='/my_portfolioweb' element={<Home/>}></Route>
+      <Route path='my_portfolioweb/home' element={<Home/>}></Route>
+      <Route path='my_portfolioweb/about' element={<AboutMePage/>}></Route>
+      <Route path='my_portfolioweb/portfolio' element={<PortfolioPage/>}></Route>
+      <Route path='my_portfolioweb/contact' element={<ContactPage/>}></Route>
+      <Route path='my_portfolioweb/services' element={<ServicesPage/>}></Route>
     </Routes>
     </BrowserRouter>
   );
