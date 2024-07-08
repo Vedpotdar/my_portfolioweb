@@ -29,8 +29,8 @@ const projects = [
     title: 'Project 3',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non felis sed.',
     image: project3Img,
-    githubLink: 'https://github.com/example/project3',
-    liveDemoLink: 'https://www.example.com/project3'
+    githubLink: 'https://github.com/Vedpotdar',
+    liveDemoLink: 'https://vedpotdar.github.io/my_portfolioweb/'
   }
 ];
 
