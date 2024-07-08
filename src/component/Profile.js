@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Container, Row, Col, Image, Button, Modal } from "react-bootstrap";
 import "./Profile.css";
 import proimg from "../image/pro_cut.png";
-import resume from "../public/My Resume (Vedant).pdf"; // ensure this is the correct path to your PDF
 
 const Profile = () => {
   const [show, setShow] = useState(false);
