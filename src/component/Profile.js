@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Container, Row, Col, Image, Button, Modal } from "react-bootstrap";
 import "./Profile.css";
 import proimg from "../image/pro_cut.png";
-import { color } from "framer-motion";
 
 const Profile = () => {
   const [show, setShow] = useState(false);
@@ -29,7 +28,7 @@ const Profile = () => {
         </Col>
       </Row>
 
-      <Modal show={show} onHide={handleClose} size="lg" style={color="red"}>
+      <Modal show={show} onHide={handleClose} size="lg">
         <Modal.Header closeButton>
           <Modal.Title>My Resume</Modal.Title>
         </Modal.Header>
