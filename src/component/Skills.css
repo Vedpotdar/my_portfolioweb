@@ -1,0 +1,25 @@
+.skills-container {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .skills-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .skill {
+    margin-bottom: 2rem;
+  }
+  
+  .progress {
+    height: 1.5rem;
+    background-color: #e9ecef;
+  }
+  
+  .progress-bar {
+    background-color: #007bff;
+  }
+  

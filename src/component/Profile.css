@@ -1,0 +1,41 @@
+.profile-container {
+    padding: 2rem 0;
+    margin-top: 3rem;
+  }
+  
+  .profile-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+  }
+  .profile-heading2{
+    font-size: 1.8rem;
+    font-weight:200;
+    margin-bottom: 4rem;
+  }
+  
+  .profile-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .profile-photo {
+    max-width: 100%;
+    height: auto;
+    /* border: 3px solid #3333336b; */
+    background-blend-mode:multiply ;
+  }
+    
+  .rounded-circle{
+    border-radius: 30% !important;
+    /* box-shadow: 5px 5px 30px 0px; */
+    background-color: transparent;
+
+  }
+  .menu{
+    margin-left: 50%;
+  }
+  .menu a{
+    margin-left: 15%;
+  }
+  

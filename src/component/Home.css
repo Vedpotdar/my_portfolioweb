@@ -1,0 +1,11 @@
+.home_design{
+    background-image: url('../image/home_back4.jpg');
+  background-size: cover;
+  background-position :top;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  display: flex;
+  filter:drop-shadow(5);
+  flex-direction: column;
+  background-attachment: local, scroll;
+}
